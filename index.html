@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Artirexa is a creative design and software development company that specializes in web design, graphic design, and software development services. We strive to create visually appealing and user-friendly digital experiences for businesses. Contact us to bring your ideas to life!">
+    <meta name="keywords" content="Ishanka Chanuka, Artirexa, ishanka_c, Chanu, portfolio, artwork, projects , Artirexa Sri Lanka , Artirexa Devlopment">
+    <title>Ishanka Chanuka | Artirexa | Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="Images/Artirexa.ico">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-pzjy/HNIdF/0Gn6rhj1kMwTEWwrrNueZKEg19YqCtEKCkAqZYaVy9ovYfHkkDQSZ" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+
+<!-- navgaition menu -->
+<nav>
+    <div class="navbar">
+        <div class="logo"><a href="#">Artirexa.</a></div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="cancel-btn">
+                <i class="fas fa-times"></i>
+            </div>
+        </ul>
+        <div class="media-icons">
+            <button class="hireMe" id="hireMeButton">
+                <p>Hire Me</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                     class="bi bi-envelope-check" viewBox="0 0 16 16">
+                    <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                    <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>
+
+<!--Snow Effect-->
+<div class="snow-container"></div>
+
+
+<!-- Home Section Start -->
+<section class="home" id="home">
+    <div class="home-content">
+        <!--        <div class="dd">-->
+        <!--        <img src="Images/girl01.gif">-->
+        <!--        </div>-->
+        <div id="homeText" class="text">
+            <div class="text-one">Howdy,</div>
+            <div class="text-two">I'm Chanuka</div>
+            <div class="text-three">Software Engineer</div>
+
+        </div>
+        <div class="button">
+            <button>Hire Me</button>
+        </div>
+    </div>
+
+</section>
+
+<!-- About  -->
+<section class="about" id="about">
+    <div class="content">
+        <div class="tab-container">
+            <div class="tab active" onclick="showTabContent(0)">About Me</div>
+            <div class="tab" onclick="showTabContent(1)">Gallery</div>
+            <div class="tab" onclick="showTabContent(2)">Workstation</div>
+        </div>
+
+        <div class="tab-content active">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="images/Image_card.png" alt="">
+                </div>
+                <div class="right">
+                    <div class="topic">Hello There, I’m Ishanka Chanuka</div>
+                    <p>Hi, I'm Ishanka Chanuka, founder of Artirexa, a multi-talented designer, web developer, coder. I
+                        specialize in creating visually appealing and user-friendly digital experiences that meet the
+                        needs of my clients and exceed their expectations. At Artirexa, we offer a range of services
+                        including web design, custom web applications, branding and design services, and more. Our goal
+                        is to deliver high-quality and effective solutions that drive business growth and success. Let's
+                        work together to bring your vision to life and achieve your goals.</p>
+                    <div>
+                        <button id="cv"><a href="Images/pdf/IshankaChanukaWeerakoon CV.pdf"
+                                           target="_blank">Download CV</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div class="gallery-tab-content active">
+                <div class="gallery">
+                    <div class="wrapper">
+                        <div class="card">
+                            <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/355157716_980252166319441_1055034229696490741_n.jpg?_nc_cat=106&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGqC8-Kb2q6CRyZaT150NQSmZGJPJwMByiZkYk8nAwHKGCa-jFdnFnWXRuOX6zyLMfcoKlQ3QoiecJGsSdKp1N-&_nc_ohc=sOkvrUwJIRcAX8mgWbL&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfALukRR-W9_Xp-qN3O6IPhDhmSoXqmBdWHNkdsk1mBR2A&oe=649EFA7E"
+                                 alt="">
+                            <div class="info">
+                                <p>Ishanka_c</p>
+                                <button class="fbButton"
+                                        onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/355157716_980252166319441_1055034229696490741_n.jpg?_nc_cat=106&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGqC8-Kb2q6CRyZaT150NQSmZGJPJwMByiZkYk8nAwHKGCa-jFdnFnWXRuOX6zyLMfcoKlQ3QoiecJGsSdKp1N-&_nc_ohc=sOkvrUwJIRcAX8mgWbL&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfALukRR-W9_Xp-qN3O6IPhDhmSoXqmBdWHNkdsk1mBR2A&oe=649EFA7E')">
+                                    More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/320167706_3355591557990001_2379432537826694595_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFIZy0e_TQXNBzN95cFwz2iOyBn9xADkhQ7IGf3EAOSFDNf0G21tAkoz_GoL0Q_Ka39CZtSoqO4YwlB_LHZjgM9&_nc_ohc=PSbkziWxKaIAX8Wiqn5&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfBUXgBfmq7FIIuwNMEI-swds93Qcil-4yPXc-2qn9e60w&oe=649ED303"
+                                 alt="">
+                            <div class="info">
+                                <p>Ishanka_c</p>
+                                <button class="fbButton"
+                                        onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/320167706_3355591557990001_2379432537826694595_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeFIZy0e_TQXNBzN95cFwz2iOyBn9xADkhQ7IGf3EAOSFDNf0G21tAkoz_GoL0Q_Ka39CZtSoqO4YwlB_LHZjgM9&_nc_ohc=PSbkziWxKaIAX8Wiqn5&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfBUXgBfmq7FIIuwNMEI-swds93Qcil-4yPXc-2qn9e60w&oe=649ED303')">
+                                    More
+                                </button>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/306831209_812347919776534_3239375344088187129_n.jpg?_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHsAph5lXWrkF8CAryuHAYwM_41iH3gcWcz_jWIfeBxZxJxlQYhqXBNVEd500ZI-spzG8sKLNC-rPrj4w7vSYVV&_nc_ohc=0JX2c48RhwoAX9bpgVE&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfA8cAm_7q0w8529pRJsq0uiwpF0GjkKPXVUZBkCBRdlDw&oe=649E56E9"
+                                 alt="">
+                            <div class="info">
+                                <p>Ishanka_c</p>
+                                <button class="fbButton"
+                                        onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/306831209_812347919776534_3239375344088187129_n.jpg?_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHsAph5lXWrkF8CAryuHAYwM_41iH3gcWcz_jWIfeBxZxJxlQYhqXBNVEd500ZI-spzG8sKLNC-rPrj4w7vSYVV&_nc_ohc=0JX2c48RhwoAX9bpgVE&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfA8cAm_7q0w8529pRJsq0uiwpF0GjkKPXVUZBkCBRdlDw&oe=649E56E9')">
+                                    More
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-tab-content">
+                <h2>Gallery</h2>
+                <p>This is the content of the "Gallery" tab. Showcase your photos or images here.</p>
+            </div>
+        </div>
+
+        <div class="tab-content">
+            <div class="wrapper">
+                <div class="card">
+                    <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/305616266_805087310502595_8625379485366170891_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHOkFYA-SHsRQitZxK_JSVGxGQF_kggE0DEZAX-SCATQLkCqNhYybFytu1YaVAilLb8UYMTE3ZXafvPg0V3c-DE&_nc_ohc=_CKGOUI4plAAX_YkMjS&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfD3vAUX1eQjLMw1qdznhCOjKEgo_GVzk_ikXiTjy86WyA&oe=649F6051"
+                         alt="">
+                    <div class="info">
+                        <p>Ishanka_c</p>
+                        <button class="fbButton"
+                                onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/305616266_805087310502595_8625379485366170891_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeHOkFYA-SHsRQitZxK_JSVGxGQF_kggE0DEZAX-SCATQLkCqNhYybFytu1YaVAilLb8UYMTE3ZXafvPg0V3c-DE&_nc_ohc=_CKGOUI4plAAX_YkMjS&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfD3vAUX1eQjLMw1qdznhCOjKEgo_GVzk_ikXiTjy86WyA&oe=649F6051')">
+                            Open
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/354622314_978765136468144_4730262718927630877_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFE7a3L8JtTx12MAKKPx7NtNBfLStZngCw0F8tK1meALLB3dUfye6Kk-TB2FZErITrF49jtbJTinuEN-IE0wV0u&_nc_ohc=gxW65WipocQAX_ssxqs&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfC3vtqC1Mv6K-bGEWMFP_Ew26K1e44RVivB7hyhKyyFJw&oe=649E2AF1"
+                         alt="">
+                    <div class="info">
+                        <p>Ishanka_c</p>
+                        <button class="fbButton"
+                                onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/354622314_978765136468144_4730262718927630877_n.jpg?_nc_cat=108&cb=99be929b-59f725be&ccb=1-7&_nc_sid=0debeb&_nc_eui2=AeFE7a3L8JtTx12MAKKPx7NtNBfLStZngCw0F8tK1meALLB3dUfye6Kk-TB2FZErITrF49jtbJTinuEN-IE0wV0u&_nc_ohc=gxW65WipocQAX_ssxqs&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfC3vtqC1Mv6K-bGEWMFP_Ew26K1e44RVivB7hyhKyyFJw&oe=649E2AF1')">
+                            Open
+                        </button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/340480975_766462444873664_2905293993388958909_n.jpg?_nc_cat=110&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGGieUMbgNkbzrogJts66-Bn3qZcs_hhiifeplyz-GGKMddqxSCD0h8Vl2LO3wOjyskew-ocvudewq0a8gv7oyW&_nc_ohc=uoTM5pigbE4AX_3IHoL&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfDkLVs6ZIz1N1SgH1wGqadBq7VM4Bo_1K9xbIVoyAMGUg&oe=649E2066"
+                         alt="">
+                    <div class="info">
+                        <p>Ishanka_c</p>
+                        <button class="fbButton"
+                                onclick="window.open('https://scontent.fcmb2-2.fna.fbcdn.net/v/t39.30808-6/340480975_766462444873664_2905293993388958909_n.jpg?_nc_cat=110&cb=99be929b-59f725be&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeGGieUMbgNkbzrogJts66-Bn3qZcs_hhiifeplyz-GGKMddqxSCD0h8Vl2LO3wOjyskew-ocvudewq0a8gv7oyW&_nc_ohc=uoTM5pigbE4AX_3IHoL&_nc_ht=scontent.fcmb2-2.fna&oh=00_AfDkLVs6ZIz1N1SgH1wGqadBq7VM4Bo_1K9xbIVoyAMGUg&oe=649E2066')">
+                            Open
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+    <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+            <div class="text">
+                <div class="topic">Skills Reflects Our Knowledge</div>
+                <p>As a web developer, I have a diverse range of technical skills and abilities in areas such as
+                    front-end and back-end development, databases, version control, and server administration. I also
+                    possess essential soft skills such as communication, problem-solving, and teamwork. Through my
+                    experience and expertise, I am capable of delivering high-quality web applications and collaborating
+                    effectively with clients and stakeholders. On my portfolio skill page, I aim to showcase my
+                    technical proficiency and demonstrate my capabilities as a skilled web developer.</p>
+                <div class="experience">
+                    <div class="num">1</div>
+                    <div class="exp">Years Of <br> Experience</div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">HTML</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">CSS</div>
+                    <div class="per">90%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">JavScript</div>
+                    <div class="per">70%</div>
+                </div>
+                <div class="box">
+                    <div class="topic">PHP</div>
+                    <div class="per">60%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- My Services -->
+<section class="services" id="services">
+    <div class="content">
+        <div class="title"><span>Services<br></span></div>
+        <div class="boxes">
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="topic">Web Devlopment</div>
+                <p>
+                    We design and develop custom websites that are tailored to your specific needs and goals. Our
+                    websites are user-friendly, visually appealing, and optimized for search engines.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-paint-brush"></i>
+                </div>
+                <div class="topic">Graphic Design</div>
+                <p>
+                    Our graphic design services include everything from logos and branding to marketing materials and
+                    advertising campaigns. We work closely with our clients to create unique and impactful designs that
+                    make their brand stand out.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="topic">Digital Marketing</div>
+                <p>
+                    We develop and execute digital marketing strategies that increase your online visibility, drive
+                    traffic to your website, and generate leads for your business.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="topic">Logo Design</div>
+                <p>
+                    We specialize in creating unique and memorable logos that represent your brand and leave a lasting
+                    impression on your customers.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-camera-retro"></i>
+                </div>
+                <div class="topic">UI/UX Design</div>
+                <p>
+                    We design intuitive and user-friendly interfaces for websites and mobile apps, ensuring that your
+                    customers have an enjoyable and engaging experience.
+                </p>
+            </div>
+            <div class="box">
+                <div class="icon">
+                    <i class="fas fa-tablet-alt"></i>
+                </div>
+                <div class="topic">Apps Devlopment</div>
+                <p>
+                    Our experienced developers create customized mobile applications that meet your business needs and
+                    provide a seamless user experience.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------My Project------>
+
+<section class="projects" id="projects">
+    <div class="title"><span>Projects<br></span></div>
+
+    <div id="slider-container">
+        <section id="slider" class="pt-5">
+            <div class="container">
+                <div class="slider">
+                    <div class="owl-carousel">
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/chat-gif.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Chat Application</b></h5>
+                            <p class="text-center p-4">Java-based real-time chat. Connect, message, communicate
+                                effortlessly. Reliable Java socket implementation. Ideal for chat systems."</p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://github.com/IshankaChanuka/Chat-Application/tree/main/src', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/pos.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Pos System</b></h5>
+                            <p class="text-center p-4">HTML/JS/CSS-based POS system. User-friendly interface.
+                                Streamlines sales transactions.Reliable solution for businesses. (Assignment 11)"</p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://ishankachanuka.github.io/Pos-Sytem/', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="card-button">
+                                <button onclick="window.open('https://github.com', '_blank')">GitHub</button>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/cal.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Calculator</b></h5>
+                            <p class="text-center p-4">HTML/CSS/JS-based calculator. Responsive design.Efficient
+                                calculation functionality. Simplify your math tasks (Assignement 10).</p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://ishankachanuka.github.io/Calculator-Web/', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/knight%20rider.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Knight Rider Pattern</b></h5>
+                            <p class="text-center p-4">HTML/CSS/JS implementation. Knight Rider pattern animation.
+                                Retro-inspired design. Engaging visual effects. Impress your visitors!(Assignment 09).</p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://ishankachanuka.github.io/Knight-Rider/', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/run.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>JavaScript Queue</b></h5>
+                            <p class="text-center p-4">Unleash the power of JavaScript to animate a running man.(Assignent 08)</p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://ishankachanuka.github.io/JS-QUE-Project/', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+
+                        <div class="slider-card">
+                            <div class="d-flex justify-content-center align-items-center mb-4">
+                                <img src="Images/car.gif" alt="">
+                            </div>
+                            <h5 class="mb-0 text-center"><b>Car Animation</b></h5>
+                            <p class="text-center p-4"> Dynamic HTML, CSS, and JavaScript power an engaging car running animation.(Assignment 04) </p>
+                            <div class="card-button">
+                                <button onclick="window.open('https://ishankachanuka.github.io/Car-Animation/', '_blank')">GitHub</button>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+    <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <div class="text">
+            <div class="topic">Have Any Project?</div>
+            <div class="cicon-container">
+                <div class="cicon">
+                    <i class="fa fa-phone" style="color: #4070F4FF"></i>
+                    <div class="call"> Phone</div>
+                    <div class="contactText" class="number"> +94767501002</div>
+                </div>
+
+                <div class="cicon">
+                    <i class="fas fa-map-marker-alt" style="color: #4070F4FF;"></i>
+                    <div class="address"> Address</div>
+                    <div class="contactText" class="address-line"> 44/3 Kajuwatta Rabukpotha Badulla</div>
+                </div>
+
+                <div class="cicon">
+                    <i class="fas fa-envelope" style="color: #4070F4FF;"></i>
+                    <div class="email"> Email</div>
+                    <div class="contactText" class="email-line"> artirexa@gmail.com</div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="col">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your email">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Your message"></textarea>
+            </div>
+            <div class="submit-button">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+    <div class="bottomColor"></div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+    <div class="text">
+        <span>Created By <a href="#">Artirexa</a> | &#169; 2023 All Rights Reserved</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
