@@ -1,4 +1,4 @@
-Assignment  01   = UI
+Assignment  01   = https://www.figma.com/proto/WcQ3ww5RddiU3YGh4byNE9/Artirexa-UI?type=design&node-id=1-2&scaling=scale-down-width&page-id=0%3A1
 Assignment  02	 = HTML Portfolio
 Assignment  03	 = Positions learn
 Assignment  04	 = Bootstrap POS UI & UX
